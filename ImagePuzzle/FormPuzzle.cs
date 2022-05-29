@@ -64,20 +64,16 @@ namespace ImagePuzzle
 
         private void buttonShuffle_Click(object sender, EventArgs e)
         {
-            DialogResult YesOrNo = new DialogResult();
-            if (labelTimeElapsed.Text == "00:00:00")
-            {
-                YesOrNo = MessageBox.Show("Apakah Anda Ingin Merestart nya??", 
+            var  YesOrNo = new DialogResult();
+            YesOrNo = MessageBox.Show("Apakah Anda Ingin Merestart nya??", 
                     "Picture Puzzle-Game", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            }
-
             if (YesOrNo == DialogResult.Yes || labelTimeElapsed.Text == "00:00:00")
             {
                 shuffle();
                 timer.Reset();
                 labelTimeElapsed.Text = "00:00:00";
                 inMoves = 0;
-                labelMovesMade.Text = "0";
+                labelMovesMade.Text = "Moves Made : 0";
             } 
         }
 
