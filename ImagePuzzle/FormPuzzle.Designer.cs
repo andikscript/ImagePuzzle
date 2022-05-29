@@ -258,6 +258,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(760, 427);
+            this.ControlBox = false;
             this.Controls.Add(this.labelMovesMade);
             this.Controls.Add(this.labelTimeElapsed);
             this.Controls.Add(this.buttonQuit);
