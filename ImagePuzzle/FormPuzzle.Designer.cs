@@ -228,7 +228,7 @@
             this.labelTimeElapsed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelTimeElapsed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTimeElapsed.ForeColor = System.Drawing.Color.Maroon;
-            this.labelTimeElapsed.Location = new System.Drawing.Point(653, 374);
+            this.labelTimeElapsed.Location = new System.Drawing.Point(651, 374);
             this.labelTimeElapsed.Name = "labelTimeElapsed";
             this.labelTimeElapsed.Size = new System.Drawing.Size(81, 22);
             this.labelTimeElapsed.TabIndex = 4;

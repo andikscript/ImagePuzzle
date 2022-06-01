@@ -22,11 +22,7 @@ namespace ImagePuzzle
             labelTimeElapsed.Text = "00:00:00"; 
         }
 
-        private void Form1_MouseClick(object sender, MouseEventArgs e)
-        {
-
-        }
-
+        private void Form1_MouseClick(object sender, MouseEventArgs e){ }
         private void Form1_Load(object sender, EventArgs e)
         {
             shuffle();
