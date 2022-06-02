@@ -13,6 +13,7 @@ namespace ImagePuzzle
         Timer timer1 = new Timer();
         int counter = 60;
         ObjectDesign objectDesign = new ObjectDesign("01:00", "00:00", "Moves Made : 0", "Paused", "Resume");
+        
         public FormPuzzle()
         {
             InitializeComponent();
