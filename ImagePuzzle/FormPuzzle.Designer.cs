@@ -45,6 +45,7 @@
             this.buttonQuit = new System.Windows.Forms.Button();
             this.labelTime = new System.Windows.Forms.Label();
             this.labelMovesMade = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbPuzzleBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
@@ -241,16 +242,27 @@
             this.labelMovesMade.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.labelMovesMade.Location = new System.Drawing.Point(378, 376);
             this.labelMovesMade.Name = "labelMovesMade";
-            this.labelMovesMade.Size = new System.Drawing.Size(124, 20);
+            this.labelMovesMade.Size = new System.Drawing.Size(139, 20);
             this.labelMovesMade.TabIndex = 5;
-            this.labelMovesMade.Text = "Moves Made : ";
+            this.labelMovesMade.Text = "Moves Made :  0";
             this.labelMovesMade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(689, 405);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "By: c9";
             // 
             // FormPuzzle
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(760, 427);
             this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelMovesMade);
             this.Controls.Add(this.labelTime);
             this.Controls.Add(this.buttonQuit);
@@ -300,6 +312,7 @@
         private System.Windows.Forms.Button buttonQuit;
         private System.Windows.Forms.Label labelTime;
         private System.Windows.Forms.Label labelMovesMade;
+        private System.Windows.Forms.Label label1;
     }
 }
 
