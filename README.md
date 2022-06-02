@@ -1,5 +1,9 @@
 # ImagePuzzle
 Aplikasi Game Desktop untuk menyusun dari puzzle - puzzle image yang disediakan oleh sistem dan mengasah kecerdasan
+
+## Running Program
+<img src="https://user-images.githubusercontent.com/58913447/171657643-b0709f6a-9b07-4f90-a668-6e1bce76dcdb.gif" width="570" height="350"/>
+
 ## Preview
 Part | Image |
 --- | --- |
