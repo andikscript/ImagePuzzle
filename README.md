@@ -7,10 +7,10 @@ Aplikasi Game Desktop untuk menyusun dari puzzle - puzzle image yang disediakan 
 ## Preview
 Part | Image |
 --- | --- |
-| Start | <img src="https://user-images.githubusercontent.com/58913447/170881438-1512c7ce-d465-4d22-acd8-a018c7257ad3.jpg" width="570" height="350" /> |
-| Running | <img src="https://user-images.githubusercontent.com/58913447/170881439-a390ec6c-93db-4fbc-99a1-670ad5333b2d.jpg" width="570" height="350" /> |
-| Paused | <img src="https://user-images.githubusercontent.com/58913447/170881434-8bec0928-c2d6-4f74-a5f5-7f1605590d14.jpg" width="570" height="350" /> |
-| Win | <img src="https://user-images.githubusercontent.com/58913447/170881436-b91b95fc-8807-4711-97fc-e920be14ea91.jpg" width="570" height="350" /> |
+| Start | <img src="https://user-images.githubusercontent.com/58913447/171660061-9b4981e4-172c-4da7-aa17-0af630b538dd.jpg" width="570" height="350" /> |
+| Running | <img src="https://user-images.githubusercontent.com/58913447/171660092-c31f556e-2d62-4f64-a8a0-f3455deb1bd7.jpg" width="570" height="350" /> |
+| Paused | <img src="https://user-images.githubusercontent.com/58913447/171660085-e67e326b-c979-4645-8ad7-e7c8cbc92abe.jpg" width="570" height="350" /> |
+| End | <img src="https://user-images.githubusercontent.com/58913447/171660088-6c1f793a-1bca-4c71-92a8-c66591adf3c6.jpg" width="570" height="350" /> |
 
 ## LICENSE
 MIT License
