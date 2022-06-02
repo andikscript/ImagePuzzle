@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPuzzle));
             this.gbPuzzleBox = new System.Windows.Forms.GroupBox();
             this.pbx1 = new System.Windows.Forms.PictureBox();
@@ -44,9 +43,8 @@
             this.buttonShuffle = new System.Windows.Forms.Button();
             this.buttonPaused = new System.Windows.Forms.Button();
             this.buttonQuit = new System.Windows.Forms.Button();
-            this.labelTimeElapsed = new System.Windows.Forms.Label();
+            this.labelTime = new System.Windows.Forms.Label();
             this.labelMovesMade = new System.Windows.Forms.Label();
-            this.timerTimeElapsed = new System.Windows.Forms.Timer(this.components);
             this.gbPuzzleBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
@@ -222,18 +220,18 @@
             this.buttonQuit.UseVisualStyleBackColor = true;
             this.buttonQuit.Click += new System.EventHandler(this.buttonQuit_Click);
             // 
-            // labelTimeElapsed
+            // labelTime
             // 
-            this.labelTimeElapsed.AutoSize = true;
-            this.labelTimeElapsed.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelTimeElapsed.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTimeElapsed.ForeColor = System.Drawing.Color.Maroon;
-            this.labelTimeElapsed.Location = new System.Drawing.Point(653, 374);
-            this.labelTimeElapsed.Name = "labelTimeElapsed";
-            this.labelTimeElapsed.Size = new System.Drawing.Size(81, 22);
-            this.labelTimeElapsed.TabIndex = 4;
-            this.labelTimeElapsed.Text = "00:00:00";
-            this.labelTimeElapsed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelTime.AutoSize = true;
+            this.labelTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.ForeColor = System.Drawing.Color.Red;
+            this.labelTime.Location = new System.Drawing.Point(676, 374);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(56, 22);
+            this.labelTime.TabIndex = 4;
+            this.labelTime.Text = "01:00";
+            this.labelTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelMovesMade
             // 
@@ -248,19 +246,13 @@
             this.labelMovesMade.Text = "Moves Made : ";
             this.labelMovesMade.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // timerTimeElapsed
-            // 
-            this.timerTimeElapsed.Enabled = true;
-            this.timerTimeElapsed.Interval = 900;
-            this.timerTimeElapsed.Tick += new System.EventHandler(this.updateTimeElapsed);
-            // 
             // FormPuzzle
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(760, 427);
             this.ControlBox = false;
             this.Controls.Add(this.labelMovesMade);
-            this.Controls.Add(this.labelTimeElapsed);
+            this.Controls.Add(this.labelTime);
             this.Controls.Add(this.buttonQuit);
             this.Controls.Add(this.buttonPaused);
             this.Controls.Add(this.buttonShuffle);
@@ -306,9 +298,8 @@
         private System.Windows.Forms.Button buttonShuffle;
         private System.Windows.Forms.Button buttonPaused;
         private System.Windows.Forms.Button buttonQuit;
-        private System.Windows.Forms.Label labelTimeElapsed;
+        private System.Windows.Forms.Label labelTime;
         private System.Windows.Forms.Label labelMovesMade;
-        private System.Windows.Forms.Timer timerTimeElapsed;
     }
 }
 
