@@ -10,6 +10,7 @@ Part | Image |
 | Start | <img src="https://user-images.githubusercontent.com/58913447/171660061-9b4981e4-172c-4da7-aa17-0af630b538dd.jpg" width="570" height="350" /> |
 | Running | <img src="https://user-images.githubusercontent.com/58913447/171660092-c31f556e-2d62-4f64-a8a0-f3455deb1bd7.jpg" width="570" height="350" /> |
 | Paused | <img src="https://user-images.githubusercontent.com/58913447/171660085-e67e326b-c979-4645-8ad7-e7c8cbc92abe.jpg" width="570" height="350" /> |
+| Win | <img src="https://user-images.githubusercontent.com/58913447/171843649-195e6049-e855-4973-bea0-03b19613ed69.jpg" width="570" height="350" /> |
 | End | <img src="https://user-images.githubusercontent.com/58913447/171660088-6c1f793a-1bca-4c71-92a8-c66591adf3c6.jpg" width="570" height="350" /> |
 
 ## LICENSE
