@@ -27,8 +27,6 @@ namespace ImagePuzzle
             buttonPaused.Enabled = false;
         }
 
-        private void Form1_MouseClick(object sender, MouseEventArgs e) { }
-
 
         private void Form1_Load(object sender, EventArgs e)
         {

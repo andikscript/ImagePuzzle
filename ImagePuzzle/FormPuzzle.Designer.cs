@@ -278,7 +278,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Picture Puzzle-Game";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             this.gbPuzzleBox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
